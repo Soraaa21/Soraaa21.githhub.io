@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShoeVerse – Step Into The Future</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="logo">ShoeVerse</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Brands</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Step Into The Future of Footwear</h1>
+      <p>Discover the world’s top shoe brands — designed for performance, comfort, and style.</p>
+      <button class="cta">Explore Now</button>
+    </div>
+  </section>
+
+  <main class="container">
+    <section class="filters">
+      <h2>Shop by Brand</h2>
+      <div class="filter-group" id="brandFilters">
+        <button data-brand="all" class="active">All</button>
+        <button data-brand="Nike">Nike</button>
+        <button data-brand="Adidas">Adidas</button>
+        <button data-brand="Puma">Puma</button>
+        <button data-brand="Vans">Vans</button>
+        <button data-brand="New Balance">New Balance</button>
+        <button data-brand="Converse">Converse</button>
+        <button data-brand="Reebok">Reebok</button>
+        <button data-brand="Asics">Asics</button>
+        <button data-brand="Under Armour">Under Armour</button>
+        <button data-brand="Balenciaga">Balenciaga</button>
+        <button data-brand="Jordan">Jordan</button>
+      </div>
+
+      <h2>Shop by Category</h2>
+      <div class="filter-group" id="categoryFilters">
+        <button data-category="all" class="active">All</button>
+        <button data-category="Running">Running</button>
+        <button data-category="Basketball">Basketball</button>
+        <button data-category="Casual">Casual</button>
+        <button data-category="Luxury">Luxury</button>
+        <button data-category="Training">Training</button>
+        <button data-category="Skate">Skate</button>
+      </div>
+    </section>
+
+    
+
+    <section class="products">
+      <h2>Featured Collection</h2>
+      <div class="product-grid">
+        <div class="product-card" data-brand="Nike" data-category="Running">
+          <img src="https://cdn-images.farfetch-contents.com/12/82/61/38/12826138_12897251_600.jpg" alt="Nike Air Max 270">
+          <h3>Nike Air Max 270</h3>
+          <p class="price">₱7,999</p>
+        </div>
+
+        <div class="product-card" data-brand="Adidas" data-category="Running">
+          <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/c9045494c79b4daca8ad306c22565cdf_9366/Ultraboost_Light_23_Shoes_Black_HP6443.jpg" alt="Adidas Ultraboost 23">
+          <h3>Adidas Ultraboost 23</h3>
+          <p class="price">₱8,499</p>
+        </div>
+
+        <div class="product-card" data-brand="Puma" data-category="Casual">
+          <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/391928/01/sv01/fnd/PHL/fmt/png/RS-X-Triple-Sneakers" alt="Puma RS-X">
+          <h3>Puma RS-X</h3>
+          <p class="price">₱6,899</p>
+        </div>
+
+        <div class="product-card" data-brand="Vans" data-category="Skate">
+          <img src="https://commonground.ph/cdn/shop/files/VansSkateOldSkool_black_white3_1445x.jpg?v=1702972081" alt="Vans Old Skool">
+          <h3>Vans Old Skool</h3>
+          <p class="price">₱4,599</p>
+        </div>
+
+        <div class="product-card" data-brand="Jordan" data-category="Basketball">
+          <img src="https://parkaccess.com.ph/cdn/shop/files/AURORA_DZ5485-100_PHSLH000-2000.jpg?v=1746979646" alt="Air Jordan 1 Retro">
+          <h3>Air Jordan 1 Retro</h3>
+          <p class="price">₱9,999</p>
+        </div>
+
+        <div class="product-card" data-brand="Balenciaga" data-category="Luxury">
+          <img src="https://www.crepslocker.com/cdn/shop/products/December202005781_97376b82-7eb1-466e-8c47-470392c258a9.jpg?v=1652089273" alt="Balenciaga Triple S">
+          <h3>Balenciaga Triple S</h3>
+          <p class="price">₱45,999</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 ShoeVerse. Designed with ❤️ by Tadashi Yamagami.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
